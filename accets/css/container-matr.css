@@ -1,0 +1,97 @@
+.main {
+  height: 1130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/index-bg_1.png");
+  padding: 50px 0 0 20px;
+  width: 100%;
+  background-size: cover;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1363;
+}
+
+.main .main__body .main__title p {
+  cursor: pointer;
+}
+
+.main .main__body .main__box-1 {
+  cursor: pointer;
+}
+
+.main .main__body .main__box-1 .main__row {
+  background-image: url("../image/bg-mic.png");
+  background-size: cover;
+  padding: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #191D43;
+  width: 248px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.main .main__body .main__box-1 .main__row .main__header {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box-1 .main__row .main__header .main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box-1 .main__row .main__header .main__text span {
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box-1 .main__row .main__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .main__body .main__box-1 .main__row .main__bottom .main__id span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box-1 .main__row .main__bottom .main__bot span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.941px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box-1 .main__row .main__bottom .main__bot span img {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=container-matr.css.map */

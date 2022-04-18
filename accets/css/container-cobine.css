@@ -1,0 +1,519 @@
+@font-face {
+  font-family: "DBE-Nitrogen";
+  src: url("../fonts/DBE-Nitrogen.ttf");
+}
+
+.main {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/index-bg_1.png");
+  padding: 50px 0 0 20px;
+  background-size: cover;
+  width: 1124px;
+}
+
+.main .main__body {
+  width: 98%;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1363;
+}
+
+.main .main__body .main__box .main__top .main__changes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 29px 0;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change {
+  margin: 0 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #191D43;
+  border-radius: 10px;
+  width: 160px;
+  height: 230px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change .main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change .main__text span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change .main__text img {
+  margin: 30px 0 10px 0;
+  width: 20px;
+  height: 18px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change .main__text p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__change .main__text .main__bg img {
+  margin: 0;
+  width: auto;
+  height: 131px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form {
+  margin: 0 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #191D43;
+  border-radius: 10px;
+  width: 324px;
+  height: 230px;
+  padding: 20px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form .main__title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form .main__title button {
+  border-radius: 5px;
+  width: 135px;
+  height: 34px;
+  border: none;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form form {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form form input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(219, 219, 219, 0.2);
+  background-color: #0ab3a800;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #8592A9;
+}
+
+.main .main__body .main__box .main__top .main__changes .main__form form button {
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  background: #0AB3A8;
+}
+
+.main .main__body .main__box .main__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__bottom .main__left {
+  z-index: 99;
+  width: 423px;
+  height: 573px;
+  border-radius: 15px;
+  background: #191D43;
+}
+
+.main .main__body .main__box .main__bottom .main__left h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 15px 15px 0 15px;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__title {
+  padding: 0 17px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__title span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form .main__row {
+  background-color: rgba(255, 222, 173, 0);
+  padding: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form .main__row span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #A6B0CF;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form .main__row #progress {
+  border-radius: 5px;
+  width: 78px;
+  height: 24px;
+  background: #0ab3a84d;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form .main__row #progress span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #0AB3A8;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form #splesh {
+  background: #ffffff15;
+  padding: 15px;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form #splesh span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #A6B0CF;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form #splesh #send {
+  background: #e8ae4959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  border-radius: 5px;
+  width: 78px;
+  height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__body .main__box .main__bottom .main__left .main__content .main__form #splesh #send span {
+  color: #F1B449;
+}
+
+.main .main__body .main__box .main__bottom .main__right {
+  background: #191D43;
+  width: 422px;
+  height: 573px;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.main .main__body .main__box .main__bottom .main__right h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 15px 0;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container {
+  height: 400px;
+  width: 100%;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live {
+  background: #ffffff15;
+  height: 359px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px 0 35px 0;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input {
+  padding: 15px 30px;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__title {
+  text-align: center;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__title h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #9AA7BA;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendUser .name span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendUser .message {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  width: 240px;
+  height: 74px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendUser .message .tree-bg {
+  position: absolute;
+  left: -13px;
+  bottom: -3px;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendUser .message span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #010101;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer {
+  float: right;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer .name span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer .message {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  width: 318px;
+  height: 97px;
+  background: #D5EAFB;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer .message .tree-bg {
+  position: absolute;
+  right: -13px;
+  bottom: -3px;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__live .main__input .main__sendDer .message span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #010101;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__send {
+  background: #F7F7F7;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__send input {
+  border: none;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__send .main__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__bottom .main__right .main__chat .main__container .main__send .main__buttons img {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+#disable {
+  background-color: #ffffff1f;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A6B0CF;
+}
+
+#enable {
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #191D43;
+}
+/*# sourceMappingURL=container-cobine.css.map */

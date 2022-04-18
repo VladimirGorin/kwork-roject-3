@@ -1,0 +1,118 @@
+.main {
+  height: 726px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/index-bg_1.png");
+  padding: 50px 0 0 20px;
+  width: 100%;
+  background-size: cover;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1363;
+}
+
+.main .main__body .main__box {
+  margin: 20px 0;
+  width: 850px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__cart {
+  background-image: url(../image/cart-bg.png);
+  background-size: cover;
+  margin: 0 10px;
+  width: 423px;
+  height: 186px;
+  border-radius: 15px;
+  background-color: #191D43;
+  padding: 18px;
+}
+
+.main .main__body .main__box .main__cart .main__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__logo {
+  margin-right: 15px;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__info p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  margin: 2px 0;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__info span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__bottom {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell {
+  margin: 15px 0 0 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell .main__mail {
+  margin: 5px 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell .main__mail span {
+  margin: 0 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell .main__tel {
+  margin: 5px 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell .main__tel span {
+  margin: 0 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__block {
+  padding: 45px 0 0 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__block .main__icons a {
+  margin: 0 3px;
+}
+/*# sourceMappingURL=container-comand.css.map */

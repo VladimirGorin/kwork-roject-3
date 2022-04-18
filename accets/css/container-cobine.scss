@@ -1,0 +1,468 @@
+@font-face {
+    font-family: "DBE-Nitrogen";
+    src: url('../fonts/DBE-Nitrogen.ttf');
+    
+}
+
+
+.main{
+    height: 100%;
+    display: flex;
+    background-image: url('../image/index-bg_1.png');
+    padding: 50px 0 0 20px;
+    background-size: cover;
+    width: 1124px;
+    .main__body{
+        width: 98%;
+        .main__title{
+            h1{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+                color: #1A1363;
+    
+            }
+        }
+        .main__box{
+            .main__top{
+                .main__changes{
+                    display: flex;
+                    margin: 29px 0;
+                    .main__change{
+                        margin: 0 15px 0 0;
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background: #191D43;
+                        border-radius: 10px;
+                        width: 160px;
+                        height: 230px;
+                        .main__text{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            padding: 20px;
+                            span{
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 16px;
+                                text-align: center;
+                                
+                                color: #FFFFFF;
+                                
+                            }
+                            img{
+                                margin: 30px 0 10px 0;
+                                width: 20px;
+                                height: 18px;
+                            }
+                            p{
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 27px;
+                                text-align: center;
+                                
+                                color: #FFFFFF;
+                                
+                            }
+                            .main__bg{
+                                img{
+                                    margin: 0;
+                                    width: auto;
+                                    height: 131px;                                }
+                            }
+                        }
+
+
+                    }
+
+                    .main__form{
+                        margin: 0 15px 0 0;
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background: #191D43;
+                        border-radius: 10px;
+                        width: 324px;
+                        height: 230px;
+                        padding: 20px;
+                        .main__title{
+                            width: 100%;
+                            display: flex;
+                            /* flex-wrap: nowrap; */
+                            flex-direction: row;
+                            button{
+                                border-radius: 5px;
+                                width: 135px; 
+                                height: 34px;
+                                border: none;
+                            }
+                        }
+                        form{
+                            width: 100%;
+                            margin-top: 15px;
+                            input{
+                                margin-bottom: 20px;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                                border-radius: 5px;                                    
+                                border: 1px solid rgba(219, 219, 219, 0.2);
+                                background-color: #0ab3a800;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 19px;
+                                /* identical to box height */
+                                
+                                
+                                color: #8592A9;    
+                            }
+                            button{
+                                border: none;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 22px;
+                                /* identical to box height */
+                                
+                                
+                                color: #FFFFFF;
+                                border-radius: 5px;                                    
+                                height: 50px;
+                                width: 100%;
+                                background: #0AB3A8;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+            .main__bottom{
+                display: flex;
+                .main__left{
+                    z-index: 99;
+
+                    width: 423px;
+                    height: 573px;
+                    border-radius: 15px;
+                    background: #191D43;
+                    h1{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        
+                        color: #FFFFFF;
+                        padding: 15px 15px 0 15px;
+
+                            
+                    }
+                    .main__content{
+                        display: flex;
+                        flex-direction: column;
+                        margin: 20px 0;
+                        .main__title{
+                            padding: 0 17px;
+                            margin-bottom: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+    
+                            span{
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 19px;
+                                /* identical to box height */
+                                
+                                
+                                color: #FFFFFF;
+                                  
+                            }
+                        }  
+                        .main__form{
+                            .main__row{
+                                background-color: rgba(255, 222, 173, 0);
+                                padding: 18px;
+                                display: flex;
+                                height: 44px;
+                                justify-content: space-between;
+                                align-items: center;
+                                span{
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 19px;
+                                    /* identical to box height */
+                                    
+                                    
+                                    color: #A6B0CF;
+                                       
+                                }
+                                #progress{
+                                    border-radius: 5px;
+                                    width: 78px;
+                                    height: 24px;
+                                    background: #0ab3a84d;
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    span{
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 16px;
+                                        /* identical to box height */
+
+
+                                        color: #0AB3A8;
+
+                                           
+                                    }
+                                }
+                            }   
+
+                            #splesh{
+                                background: #ffffff15;
+                                padding: 15px;
+                                span{
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 19px;
+                                    /* identical to box height */
+                                    
+                                    
+                                    color: #A6B0CF;
+                                       
+                                }
+                                #send{
+                                    background: #e8ae4959;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    /* identical to box height */
+                                    border-radius: 5px;
+                                    width: 78px;
+                                    height: 24px;
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    span{
+                                        color: #F1B449;
+                                    }
+                                }
+
+                                
+                            }
+                        }
+                    }
+                }
+                .main__right{
+                    background: #191D43;
+                    width: 422px;
+                    height: 573px;
+                    margin-left: 20px;
+                    border-radius: 15px;
+                    padding: 20px;
+                    h1{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 25px;
+                        /* identical to box height */
+                        
+                        
+                        color: #FFFFFF;
+                        
+                           
+                    }
+                    .main__chat{
+                        h1{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 24px;
+                            
+                            color: #FFFFFF;
+                            margin: 15px 0;
+                        }
+                        .main__container{
+                            height: 400px;
+                            width: 100%;
+                            .main__live{
+                                background: #ffffff15;
+                                height: 359px;
+                                width: 100%;
+                                border-radius: 10px;
+                                margin: 5px 0 35px 0;
+                                .main__input{
+                                    padding: 15px 30px;
+                                    .main__title{
+                                        text-align: center;
+                                        h1{
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            line-height: 22px;
+                                            /* identical to box height */
+                                            
+                                            text-align: center;
+                                            
+                                            color: #9AA7BA;
+                                            
+                                                
+                                        }
+                                    }
+                                    .main__sendUser{
+                                        .name{
+                                            span{
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                /* identical to box height */
+                                                
+                                                
+                                                color: #FFFFFF;
+                                                   
+                                            }
+                                        }
+                                        .message{
+                                            position: relative;
+                                            display: flex;
+                                            margin-top: 10px;
+                                            width: 240px;
+                                            height: 74px;
+                                            background: #F7F7F7;
+                                            border-radius: 5px;
+                                            padding: 15px;
+                                            .tree-bg{
+                                                position: absolute;
+                                                left: -13px;
+                                                bottom: -3px;
+                                            }
+                                            span{
+                                                font-style: normal;
+                                                font-weight: 500;
+                                                font-size: 14px;
+                                                line-height: 19px;
+                                                
+                                                color: #010101;
+                                                   
+                                            }
+                                        }
+                                    }
+                                    .main__sendDer{
+                                        float: right;
+                                        margin: 20px 0;
+                                        display: flex;
+                                        justify-content: right;
+                                        flex-direction: column;
+                                        .name{
+                                            display: flex;
+                                            justify-content: right;
+                                            span{
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                /* identical to box height */
+                                                
+                                                
+                                                color: #FFFFFF;
+                                                   
+                                            }
+                                        }
+                                        .message{
+                                            position: relative;
+                                            display: flex;
+                                            margin-top: 10px;
+                                            width: 318px;
+                                            height: 97px;
+                                            background: #D5EAFB;
+                                            border-radius: 5px;
+                                            padding: 15px;
+                                            .tree-bg{
+                                                position: absolute;
+                                                right: -13px;
+                                                bottom: -3px;
+                                            }
+                                            span{
+                                                font-style: normal;
+                                                font-weight: 500;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                
+                                                color: #010101;
+                                                   
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .main__send{
+                                background: #F7F7F7;
+                                border-radius: 10px;
+                                width: 100%;
+                                height: 55px;
+                                padding: 15px;
+                                display: flex;
+                                align-items: center;
+                                input{
+                                    border: none;
+                                }
+                                .main__buttons{
+                                    display: flex;
+
+                                    img{
+                                        cursor: pointer;
+                                        margin: 0 5px;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+#disable{
+
+    background-color: #ffffff1f;       
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A6B0CF;
+                         
+}
+
+#enable{
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;    
+    color: #191D43;
+    
+}
+
+
+
+

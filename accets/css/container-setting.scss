@@ -1,0 +1,565 @@
+@font-face {
+    font-family: "DBE-Nitrogen";
+    src: url('../fonts/DBE-Nitrogen.ttf');
+    
+}
+
+.main{
+    height: 726px;
+    display: flex;
+    background-image: url('../image/index-bg_1.png');
+    padding: 50px 0 0 20px;
+    background-size: cover;
+    width: 1124px;
+    .main__body{
+        width: 98%;
+        .main__title{
+            h1{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+                color: #1A1363;
+    
+            }
+        }
+        .main__box{
+            margin: 20px 0;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            .main__allUserInfo{
+                border: 1px solid #E4E4E4;
+                height: 139px;
+                justify-content: space-between;
+                display: flex;
+                width: 100%;
+                .main__logo{
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    img{
+                        margin-right: 20px;
+                        width: 100px;
+                        height: 100px;
+                    }
+                    span{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 16px;
+                        
+                        color: #2C2B2B;
+                        
+                    }
+                }
+                .main__deletLogo{
+                    cursor: pointer;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    margin-right: 20px;
+                    img{
+
+                    }
+                    span{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 19px;
+                        /* identical to box height */
+                        margin-left: 20px;
+                        
+                        color: #2C2B2B;
+                        
+                    }
+                }
+            }
+            .main__redirectInfo{
+                margin: 20px 0;
+                border: 1px solid #E4E4E4;
+                height: 370px;
+                width: 100%;
+                padding: 20px;
+                .main__row{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 60px;
+                    width: 100%;
+                    border-bottom: 1px solid #DDDDDD;
+                    .main__title{
+                        span{
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #2C2B2B;
+                        }
+                    }
+                    .main__info{
+                        span{
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #2C2B2B;
+                        }
+                    }
+                    .main__rename{
+                        cursor: pointer;
+                        span{
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px;
+                            /* identical to box height */
+                            
+                            
+                            color: #2879FC; 
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@keyframes showPopups{
+    0%{
+        opacity: 0;
+        transition: 1s;
+    }
+    100%{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+.popup__rename-name{
+    display: none;
+    background-color: #0000009d;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    .rename-name__body{
+        animation-name: showPopups;
+        animation-duration: 3s;
+
+        width: 360px;
+        height: 345px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        form{
+            margin-bottom: 40px;
+            input{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+                
+                
+                color: #000000;
+                border: 1px solid #DBDBDB;
+                height: 49px;
+            }
+            label{
+                margin: 15px 0;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #000000;
+
+            }
+        }
+        #save-1{
+            margin: 0 15px;
+            background: #1A1363;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+
+
+        }
+        button{
+            width: 129px;
+            height: 50px;
+
+        }
+    }
+}
+
+.popup__rename-pass{
+    display: none;
+    background-color: #0000009d;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    .rename-pass__body{
+        animation-name: showPopups;
+        animation-duration: 3s;
+
+        width: 360px;
+        height: 470px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        form{
+            margin-bottom: 40px;
+            span{
+                margin: 5px 0;
+                display: block;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #2879FC;
+                text-align: right;
+            }
+            input{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+                
+                
+                color: #000000;
+                border: 1px solid #DBDBDB;
+                height: 49px;
+            }
+            label{
+                margin: 15px 0;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #000000;
+
+            }
+        }
+        #save-1{
+            margin: 0 15px;
+            background: #1A1363;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+
+
+        }
+        button{
+            width: 129px;
+            height: 50px;
+
+        }
+    }
+}
+
+.popup__rename-email{
+    display: none;
+    background-color: #0000009d;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    .rename-pass__body{
+        animation-name: showPopups;
+        animation-duration: 3s;
+
+        width: 360px;
+        height: 345px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        form{
+            margin-bottom: 40px;
+            span{
+                margin: 5px 0;
+                display: block;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #2879FC;
+                text-align: right;
+            }
+            input{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+                
+                
+                color: #000000;
+                border: 1px solid #DBDBDB;
+                height: 49px;
+            }
+            label{
+                margin: 15px 0;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #000000;
+
+            }
+        }
+        #save-1{
+            margin: 0 15px;
+            background: #1A1363;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+
+
+        }
+        button{
+            width: 129px;
+            height: 50px;
+
+        }
+    }
+}
+
+.popup__rename-tel{
+    display: none;
+    background-color: #0000009d;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    .rename-pass__body{
+        animation-name: showPopups;
+        animation-duration: 3s;
+
+        width: 360px;
+        height: 345px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        form{
+            margin-bottom: 40px;
+            span{
+                margin: 5px 0;
+                display: block;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #2879FC;
+                text-align: right;
+            }
+            input{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                /* identical to box height */
+                
+                
+                color: #000000;
+                border: 1px solid #DBDBDB;
+                height: 49px;
+            }
+            label{
+                margin: 15px 0;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+
+                color: #000000;
+
+            }
+        }
+        #save-1{
+            margin: 0 15px;
+            background: #1A1363;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+
+
+        }
+        button{
+            width: 129px;
+            height: 50px;
+
+        }
+    }
+}
+
+.popup__rename-social{
+    display: none;
+    background-color: #0000009d;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    .rename-pass__body{
+        animation-name: showPopups;
+        animation-duration: 3s;
+        display: flex;
+        width: 517px;
+        height: 355px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        .rename-social__icons{
+            width: 100px;
+           .rename-social__ico{
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin: 14px 0;                    
+                    width: 41px;
+                    height: 41px;
+                }
+           }
+           .rename-social__text{
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+
+                    color: #000000;
+
+                }
+           } 
+        }
+        .popup__rename-social__row{
+            
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            form{
+                margin-bottom: 40px;
+                span{
+                    margin: 5px 0;
+                    display: block;
+                    cursor: pointer;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 19px;
+                    /* identical to box height */
+    
+    
+                    color: #2879FC;
+                    text-align: right;
+                }
+                input{
+                    margin: 15px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+                    
+                    color: #8E8E8E;
+                    
+                    border: 1px solid #DBDBDB;
+                    height: 49px;
+                }
+                label{
+                    margin: 15px 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+    
+    
+                    color: #000000;
+    
+                }
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                #save-1{
+                    margin: 0 40px;
+                    background: #1A1363;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+        
+                    color: #FFFFFF;
+        
+        
+                }
+                button{
+                    width: 129px;
+                    height: 50px;
+        
+                }
+            }
+        }
+
+    }
+}

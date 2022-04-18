@@ -1,0 +1,352 @@
+@font-face {
+  font-family: "DBE-Nitrogen";
+  src: url("../fonts/DBE-Nitrogen.ttf");
+}
+
+.main {
+  height: 726px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/index-bg_1.png");
+  padding: 50px 0 0 20px;
+  background-size: cover;
+  width: 1124px;
+}
+
+.main .main__body {
+  width: 98%;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1363;
+}
+
+.main .main__body .main__box {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .main__body .main__box .main__boxAll {
+  margin: 0 7px;
+  width: 275px;
+  height: 173px;
+  background: #191D43;
+  border-radius: 15px;
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .main__body .main__box .main__boxAll p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FCFCFC;
+}
+
+.main .main__body .main__box .main__boxAll .main__header {
+  margin: 0 0 18px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__boxAll .main__header .main__text span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__boxAll .main__header .main__img {
+  background: #ffffff33;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer {
+  margin: 0 0 13px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer .main__sell span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer .main__app {
+  background: #0ab3a82f;
+  width: 100px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer .main__app span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #0AB3A8;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer #red {
+  background: #d45c4725;
+  width: 100px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.main .main__body .main__box .main__boxAll .main__footer #red span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #F06548;
+}
+
+.main .main__body .main__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__block .main__left {
+  margin: 0 10px 0 5px;
+  width: 570px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #191D43;
+}
+
+.main .main__body .main__block .main__left h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__block .main__left .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0;
+}
+
+.main .main__body .main__block .main__left .main__content .main__title {
+  padding: 0 17px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__block .main__left .main__content .main__title span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__block .main__left .main__content .main__form .main__row {
+  background-color: rgba(255, 222, 173, 0);
+  border-radius: 10px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__block .main__left .main__content .main__form .main__row span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #A6B0CF;
+}
+
+.main .main__body .main__block .main__left .main__content .main__form #splesh {
+  background: #ffffff15;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.main .main__body .main__block .main__left .main__content .main__form #splesh span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #A6B0CF;
+}
+
+.main .main__body .main__block .main__right {
+  padding: 20px;
+  border-radius: 15px;
+  background: #191D43;
+  width: 275px;
+  height: 400px;
+}
+
+.main .main__body .main__block .main__right h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__block .main__right .main__content .main__title {
+  margin: 15px 0 10px 0;
+}
+
+.main .main__body .main__block .main__right .main__content .main__title label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.main .main__body .main__block .main__right .main__content .main__title input {
+  height: 49px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border: 1px solid rgba(219, 219, 219, 0.2);
+  background-color: #191d4300;
+}
+
+.main .main__body .main__block .main__right .main__form {
+  margin-top: 25px;
+}
+
+.main .main__body .main__block .main__right .main__form input {
+  width: 19px;
+  height: 19px;
+  background-color: #0ab3a800;
+  border: 1px solid #DBDBDB;
+}
+
+.main .main__body .main__block .main__right .main__form label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__block .main__right .main__form .main__rows {
+  margin: 15px 0;
+}
+
+.main .main__body .main__block .main__right .main__form .main__rowsB {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__body .main__block .main__right .main__form .main__rowsB button {
+  height: 50px;
+  width: 180px;
+  background: #0AB3A8;
+}
+/*# sourceMappingURL=container-invis.css.map */

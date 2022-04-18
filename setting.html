@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./accets/css/container-setting.css">
+    <link rel="stylesheet" href="./accets/css/panel-index.css">
+    <link rel="stylesheet" href="./accets/css/global.css">
+    <link rel="stylesheet" href="./accets/css/mobile/mobile-setting.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper-mobile">
+
+        <div id="menu-3"  class="pannel">
+
+            <div class="pannel__logo">
+                <img src="./accets/image/Logo-index.png" alt="">
+                <span onclick="closeMenu_3()">×</span>
+            </div>
+            <div class="pannel__nav">
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Home_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./index.html">Главная</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Work_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./invis.html">Инвестиции</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Activity_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./mayni.html">Майнинг</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Document_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./check.html">Чеки</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/User_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./comand.html">Команда</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Graph_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./matr.html">Матрица</a>
+                    </div>
+                </div>
+                <div id="selected"  class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Setting_2.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./setting.html">Настройки</a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <header class="header">
+            <div class="header__body">
+                <div class="header__logo">
+                    <img src="./accets/image/Logo-index.png" alt="">
+                </div>
+                <div onclick="openMenu_3()" class="header__menu">
+                    <span>☰</span>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="main">
+            <div class="main__body">
+                <div class="main__title">
+                    <h1>Настройки</h1>
+                </div>
+                <div class="main__box">
+                    <div class="main__allUserInfo">
+                        <div class="main__logo">
+                            <img src="./accets/image/cart-person.png" alt="">
+                            <span>Изображение формата jpg, gif, png <br>
+                                не менее 150x150 px, не более 8Мб <br>
+                                или 5000x5000 px. .</span>
+                        </div>
+                        <div class="main__deletLogo">
+                            <img src="./accets/image/cart-icon/Delete_1.png" alt="">
+                            <span>Удалить фото</span>
+                        </div>
+                    </div>
+                    <div class="main__redirectInfo">
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Имя</span>
+                            </div>
+                            <div class="main__info">
+                                <span>Александр Смирнов</span>
+                            </div>
+                            <div onclick="openPopup_1()" class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Пароль</span>
+                            </div>
+                            <div class="main__info">
+                                <span>Обновлен</span>
+                            </div>
+                            <div onclick="openPopup_2()" class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Email</span>
+                            </div>
+                            <div class="main__info">
+                                <span>example370@mail.ru</span>
+                            </div>
+                            <div onclick="openPopup_3()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Телефон</span>
+                            </div>
+                            <div class="main__info">
+                                <span>+998 90 800-80-50</span>
+                            </div>
+                            <div onclick="openPopup_4()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Социальные сети</span>
+                            </div>
+                            <div class="main__info">
+                                <img src="./accets/image/cart-icon/rename-facebok.png" alt="">
+                                <img src="./accets/image/cart-icon/rename-instagram.png" alt="">
+                                <img src="./accets/image/cart-icon/rename-vk.png" alt="">
+                            </div>
+                            <div  onclick="openPopup_5()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <span>2022 © Triskelion</span>
+        </footer>
+
+    </div>
+    
+    <div class="wrpaper">
+
+        <div class="pannel">
+
+            <div class="pannel__logo">
+                <img src="./accets/image/Logo-index.png" alt="">
+            </div>
+            <div class="pannel__nav">
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Home_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./index.html">Главная</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Work_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./invis.html">Инвестиции</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Activity_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./mayni.html">Майнинг</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Document_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./check.html">Чеки</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/User_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./comand.html">Команда</a>
+                    </div>
+                </div>
+                <div class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Graph_1.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./matr.html">Матрица</a>
+                    </div>
+                </div>
+                <div id="selected"  class="pannel__navigation">
+                    <div class="pannel__img">
+                        <img src="./accets/image/menu-icons/Setting_2.png" alt="">
+                    </div>
+                    <div class="pannel__text">
+                        <a href="./setting.html">Настройки</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main__body">
+                <div class="main__title">
+                    <h1>Настройки</h1>
+                </div>
+                <div class="main__box">
+                    <div class="main__allUserInfo">
+                        <div class="main__logo">
+                            <img src="./accets/image/cart-person.png" alt="">
+                            <span>Изображение формата jpg, gif, png <br>
+                                не менее 150x150 px, не более 8Мб <br>
+                                или 5000x5000 px. .</span>
+                        </div>
+                        <div class="main__deletLogo">
+                            <img src="./accets/image/cart-icon/Delete_1.png" alt="">
+                            <span>Удалить фото</span>
+                        </div>
+                    </div>
+                    <div class="main__redirectInfo">
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Имя</span>
+                            </div>
+                            <div class="main__info">
+                                <span>Александр Смирнов</span>
+                            </div>
+                            <div onclick="openPopup_1()" class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Пароль</span>
+                            </div>
+                            <div class="main__info">
+                                <span>Обновлен 2 месяца назад</span>
+                            </div>
+                            <div onclick="openPopup_2()" class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Email</span>
+                            </div>
+                            <div class="main__info">
+                                <span>example370@mail.ru</span>
+                            </div>
+                            <div onclick="openPopup_3()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Телефон</span>
+                            </div>
+                            <div class="main__info">
+                                <span>+998 90 800-80-50</span>
+                            </div>
+                            <div onclick="openPopup_4()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                        <div class="main__row">
+                            <div class="main__title">
+                                <span>Социальные сети</span>
+                            </div>
+                            <div class="main__info">
+                                <img src="./accets/image/cart-icon/rename-facebok.png" alt="">
+                                <img src="./accets/image/cart-icon/rename-instagram.png" alt="">
+                                <img src="./accets/image/cart-icon/rename-vk.png" alt="">
+                            </div>
+                            <div  onclick="openPopup_5()"  class="main__rename">
+                                <img src="./accets/image/cart-icon/rename.png" alt="">
+                                <span>Изменить</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="closePopups" class="popup-all">
+        <div id="popup_1" class="popup__rename-name">
+            <div class="rename-name__body">
+                <form action="">
+                    <label for="exampleInputName1">Имя</label>
+                    <input type="name" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputName1">Фамилия</label>
+                    <input type="name" class="form-control" id="exampleInputName1">
+                </form>
+                <div>
+                    <button onclick="save_1()" id="save-1" type="button" class="btn btn-primary">Сохранить</button>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled>Отменить</button>
+                </div>
+            </div>
+        </div>
+        <div id="popup_2" class="popup__rename-pass">
+            <div class="rename-pass__body">
+                <form action="">
+                    <label for="exampleInputPassword1">Старый пароль</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <span>Забыли пароль?</span>
+                    <label for="exampleInputPassword2">Новый пароль</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2">
+                    <label for="exampleInputPassword3">Повторите пароль</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3">
+                </form>
+                <div>
+                    <button onclick="save_2()" id="save-1" type="button" class="btn btn-primary">Сохранить</button>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled>Отменить</button>
+                </div>
+            </div>
+        </div>
+        <div id="popup_3" class="popup__rename-email">
+            <div class="rename-pass__body">
+                <form action="">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                
+                    <label for="exampleInputEmail2">Новый email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2">
+                </form>
+                <div>
+                    <button onclick="save_3()" id="save-1" type="button" class="btn btn-primary">Сохранить</button>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled>Отменить</button>
+                </div>
+            </div>
+        </div>
+        <div id="popup_4" class="popup__rename-tel">
+            <div class="rename-pass__body">
+                <form action="">
+                    <label for="exampleInputPassword2">Мобильный телефон</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2">
+                    <label for="exampleInputPassword3">Новый мобильный телефон</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3">
+                </form>
+                <div>
+                    <button onclick="save_4()" id="save-1" type="button" class="btn btn-primary">Сохранить</button>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled>Отменить</button>
+                </div>
+            </div>
+        </div>
+        <div id="popup_5" class="popup__rename-social">
+
+            <div class="rename-pass__body">
+                <div class="rename-social__icons">
+                    <div class="rename-social__ico">
+                        <img src="./accets/image/popup-img/popup-vk.png" alt="vk">
+                        <img src="./accets/image/popup-img/popup-facebok.png" alt="facebok">
+                        <img src="./accets/image/popup-img/popup-instagram.png" alt="instagram">
+                        
+                    </div>
+                    <!-- <div class="rename-social__text">
+                        <span>ВКонтакте</span>
+                        <span>Facebook</span>
+                        <span>Instagram</span>
+                    </div> -->
+                </div>
+                <div class="popup__rename-social__row">
+                    <form action="">
+                        <input type="text" class="form-control" placeholder="Ccылка на соц сеть">
+                        <input type="text" class="form-control" placeholder="Ccылка на соц сеть">
+                        <input type="text" class="form-control" placeholder="Ccылка на соц сеть">
+                    </form>
+                    <div>
+                        <button onclick="save_5()" id="save-1" type="button" class="btn btn-primary">Сохранить</button>
+                        <button type="button" class="btn btn-secondary btn-lg" disabled>Отменить</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./accets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

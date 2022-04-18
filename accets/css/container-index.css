@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "DBE-Nitrogen";
+  src: url("../fonts/DBE-Nitrogen.ttf");
+}
+
+.main {
+  height: 726px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/index-bg_1.png");
+  padding: 50px 0 0 20px;
+  width: 100%;
+  background-size: cover;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1363;
+}
+
+.main .main__body .main__box {
+  margin: 20px 0;
+  width: 850px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__cart {
+  margin: 0 10px;
+  width: 423px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: #191D43;
+  padding: 18px;
+}
+
+.main .main__body .main__box .main__cart .main__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__logo {
+  margin-right: 15px;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__info p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  margin: 5px 0;
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__header .main__info span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__bottom {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell {
+  margin: 15px 0 0 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__sell p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+  padding: 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__block {
+  padding: 60px 0 0 0;
+}
+
+.main .main__body .main__box .main__cart .main__bottom .main__block span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.bg-img-1 {
+  top: 140px;
+  position: absolute;
+  left: 430px;
+}
+
+.bg-img-2 {
+  top: 140px;
+  position: absolute;
+  left: 860px;
+}
+
+.bg-img-3 {
+  top: 362px;
+  position: absolute;
+  left: 431px;
+}
+
+.bg-img-4 {
+  top: 362px;
+  position: absolute;
+  left: 860px;
+}
+/*# sourceMappingURL=container-index.css.map */

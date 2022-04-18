@@ -1,0 +1,97 @@
+
+.main{
+    height: 1130px;
+    display: flex;
+    background-image: url('../image/index-bg_1.png');
+    padding: 50px 0 0 20px;
+    width: 100%;
+    background-size: cover;
+    .main__body{
+        .main__title{
+            h1{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+                color: #1A1363;
+    
+            }
+            p{
+                cursor: pointer;
+            }
+        }
+        .main__box-1{
+            cursor: pointer;
+            .main__row{
+                background-image: url("../image/bg-mic.png");
+                background-size: cover;
+                padding: 15px;
+                flex-direction: column;
+                display: flex;
+                background: #191D43;
+                width: 248px;
+                height: 120px;
+                border-radius: 15px;
+
+                .main__header{
+                    margin-bottom: 15px;
+                    display: flex;
+
+                    .main__logo{
+                        img{
+
+                        }
+                    }
+                    .main__text{
+                        display: flex;
+                        span{
+                            margin-left: 15px;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 19px;
+                            
+                            color: #FFFFFF;
+                            
+                        }
+                    }
+                }
+                .main__bottom{
+                    display: flex;
+                    justify-content: space-between;
+                    .main__id{
+                        span{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+
+                        }
+                    }
+                    .main__bot{
+                        span{
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13.941px;
+                            line-height: 19px;
+                            /* identical to box height */
+                            
+                            
+                            color: #FFFFFF;
+                            
+                            img{
+                                margin-right: 10px;
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

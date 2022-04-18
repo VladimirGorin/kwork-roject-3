@@ -1,0 +1,241 @@
+.wrpaper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.wrapper-mobile {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper-mobile .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #191D42;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+}
+
+.wrapper-mobile .header .header__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper-mobile .header .header__menu {
+  cursor: pointer;
+}
+
+.wrapper-mobile .header .header__menu span {
+  color: white;
+  font-size: 35px;
+}
+
+.wrapper-mobile .main {
+  padding: 50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 900px;
+  margin: 15px 0;
+}
+
+.wrapper-mobile .main .main__body {
+  width: 100%;
+}
+
+.wrapper-mobile .main .main__body .main__box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper-mobile .main .main__body .main__box .main__cart {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.wrapper-mobile .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #191D42;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+}
+
+.wrapper-mobile .footer span {
+  color: white;
+}
+
+#menu-2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 135%;
+  width: 100%;
+}
+
+#menu-2 .pannel__logo {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+#menu-2 .pannel__logo span {
+  font-size: 35px;
+  color: white;
+  z-index: 9999;
+}
+
+.main .main__body .main__title h1 {
+  font-style: normal;
+  font-weight: 800;
+  /* font-size: 24px; */
+  line-height: 29px;
+  font-size: 40px;
+  color: #1A1363;
+}
+
+.main .main__body .main__title {
+  text-align: center;
+}
+
+.header {
+  height: 100px;
+}
+
+.footer {
+  height: 80px;
+}
+
+.pannel-mobile {
+  display: none;
+}
+
+@media (max-width: 3000px) {
+  .wrapper-mobile {
+    display: none;
+  }
+  .main .main__body .main__title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrpaper {
+    display: none;
+  }
+  .header {
+    height: 100px;
+  }
+  .main .main__body .main__title {
+    text-align: cente;
+  }
+  .wrapper-mobile .main .main__body .main__box {
+    width: 100%;
+    display: -webkit-box;
+    height: 370px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 440px) {
+  .main .main__body .main__box .main__cart .main__bottom .main__sell .main__mail span {
+    margin: 0 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  .main__icons img {
+    width: 18px;
+  }
+  .main .main__body .main__box .main__cart .main__bottom .main__sell .main__tel span {
+    margin: 0 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  .menu-2 .pannel__logo img {
+    width: 150px;
+  }
+  .main__cart {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #191D43;
+    padding: 10px;
+  }
+  .main .main__body .main__box .main__cart .main__bottom .main__sell p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding: 0;
+  }
+  .main .main__body .main__box .main__cart .main__bottom .main__block span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  .header__logo img {
+    width: 110px;
+  }
+  .header {
+    height: 60px;
+  }
+  .footer {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=mobile-comand.css.map */

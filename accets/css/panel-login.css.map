@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,GAAG;EACV,eAAe,EAAE,YAAY;CAChC",
+    "sources": [
+        "panel-login.scss"
+    ],
+    "names": [],
+    "file": "panel-login.css"
+}
